@@ -1,14 +1,109 @@
 ---
-title: 项目架构
+title: 快速开始
 icon: sitemap
 order: 1
 ---
 
-# 项目架构
+# 快速开始
 
-本文档介绍 Pyisland 项目的整体架构设计和代码组织结构。
+本文档介绍 Pyisland 项目的开发结构。
+::: info 环境要求
+- **操作系统**: Windows 10/11
+- **Python**: 3.11+    **如果你有conda可以忽略Python版本要求**
+:::
 
-## 技术选型
+
+
+## 开发步骤
+
+
+### 1. 克隆仓库
+
+
+```bash
+git clone https://github.com/Python-island/Python-island.git
+cd Python-island
+```
+
+
+### 2. 选择分支
+
+
+项目有多个分支版本，建议使用以下稳定版本：
+
+
+::: info 分支选择(点击分支可查看具体信息)
+| 分支 | 技术栈 | 适用场景 |
+|------|--------|----------|
+| [`pyislandPyside6`](#python-版本-pyside6-分支) | Python + PySide6 | 稳定版，功能完整 |
+| [`tauri-island`](#rust-版本-tauri-分支) | Rust + Tauri 2 | 性能优先，新技术体验 |
+| [`pyisland-wanku`](#技术选型) | Python + PySide6 | 高仿真 iOS 风格 |
+| [`harmony`](#技术选型) | Python + PySide6 | 精简版，占用小 |
+:::
+
+
+
+切换到指定分支：
+
+
+```bash
+# 例如切换到 pyislandPyside6 分支
+git checkout pyislandPyside6
+```
+
+
+### 3. 安装 Python 依赖
+
+
+::: tip 推荐方式
+1.使用虚拟环境隔离依赖：
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+2.使用conda
+```bash
+conda create -n python-island python==3.12
+conda activate python-island
+pip install -r requirements.txt
+```
+:::
+或直接安装：
+
+
+```bash
+pip install -r requirements.txt
+```
+
+
+### 4. 运行应用
+
+
+```bash
+python main.py
+
+```
+
+## 常见问题
+::: warning 托盘图标不显示
+确保 `resources/icons/controls/tray.png` 文件存在。
+:::
+
+
+::: warning 亮度调节无效
+可能需要以管理员权限运行程序。
+:::
+
+
+::: danger 模块导入错误
+确保通过 `python main.py` 运行，而不是直接运行子模块文件。
+:::
+
+
+
+
+## 分支介绍
 
 ### Python 版本 (PySide6 分支)
 

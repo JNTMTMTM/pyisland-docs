@@ -122,7 +122,7 @@ downloadUrls:
 <p class="target-text">追求稳定可靠的用户</p>
 </div>
 
-<a href="https://download.pyisland.com/download/pyisland.exe" class="download-btn btn-primary" type="button">
+<a href="https://download.pyisland.com/download/Pyisland_V1.6.1.exe" class="download-btn btn-primary" type="button">
 立即下载
 </a>
 </div>

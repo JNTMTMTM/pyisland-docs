@@ -6,7 +6,9 @@ export default sidebar({
       text: "使用指南",
       icon: "book",
       children: [
-        "/guide/getting-started.md",
+        "/guide/getting-started",
+        "/guide/pyislandPyside6.md",
+        "/guide/tauri-island.md",
         "/guide/features.md",
       ],
     },
