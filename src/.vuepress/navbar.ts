@@ -19,7 +19,7 @@ export default navbar([
   {
     text: "分支版本",
     icon: "code-branch",
-    link: "/branches/pyislandPyside6.html",
+    link: "/branches/",
   },
   {
     text: "主站",

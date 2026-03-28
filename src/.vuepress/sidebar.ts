@@ -28,7 +28,7 @@ export default sidebar({
       text: "分支版本",
       icon: "code-branch",
       children: [
-        "/branches/overview",
+        "/branches/",
         "/branches/pyislandPyside6",
         "/branches/pyislandQT",
         "/branches/tauri-island",
