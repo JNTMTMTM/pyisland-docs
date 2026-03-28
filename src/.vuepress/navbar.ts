@@ -7,23 +7,28 @@ export default navbar([
     link: "/",
   },
   {
-    text: "下载",
-    icon: "download",
-    link: "/download",
-  },
-  {
     text: "使用指南",
     icon: "book",
-    link: "/guide/getting-started.html",
+    link: "/guide/",
   },
   {
     text: "开发指南",
     icon: "code",
-    link: "/develop/architecture.html",
+    link: "/develop/",
   },
   {
     text: "分支版本",
     icon: "code-branch",
-    link: "/branches/pyislandPyside6.html",
+    link: "/branches/",
+  },
+  {
+    text: "主站",
+    icon: "globe",
+    link: "https://pyisland.com",
+  },
+  {
+    text: "下载",
+    icon: "download",
+    link: "https://pyisland.com/#download",
   }
 ]);
