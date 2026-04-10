@@ -3,6 +3,10 @@ title: pyislandPyside6
 icon: sitemap
 order: 1
 ---
+:::warning
+该分支为主分支
+无音乐功能
+:::
 # pyislandPyside6
 本文档为pyislandPyside6分支教程,功能介绍见[pyislandPyside6](/branches/pyislandPyside6.html)
 :::tip 选择版本快速跳转
