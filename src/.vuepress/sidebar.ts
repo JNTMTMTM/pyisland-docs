@@ -7,7 +7,6 @@ export default sidebar({
       icon: "book",
       children: [
         "/guide/",
-        "/guide/ncm-music",
         "/guide/pyislandPyside6",
         "/guide/tauri-island",
         "/guide/eisland",
@@ -22,6 +21,13 @@ export default sidebar({
         "/guide/github/accounts.md",
         "/guide/github/functions.md",
         "/guide/github/issues.md",
+      ],
+    },
+    {
+      text: "常见问题",
+      icon: "question",
+      children: [
+        "/guide/qa/ncm-music.md",
       ],
     },
   ],

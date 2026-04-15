@@ -1,13 +1,28 @@
 ---
-title: 网易云歌词显示插件
+title: 歌词识别
 icon: mdi:music
 order: 1
 ---
 
 # ncm-music
+:::tip
+本项目**代码**所有音乐功能**均未违反音乐厂商条款**,**也与厂商无关**
+:::
 
-## 网易云歌词显示插件安装
-点击蓝字[BetterNCM](https://std.microblock.cc/betterncm)下载
+## 歌词识别无效
+- 支持该功能的分支: **eisland**,**tauri-island**
+- 高精度匹配: 
+  qq音乐
+  汽水音乐
+  网易云音乐
+  酷狗音乐(开发中)
+- 低精度匹配
+  Apple Music
+  Spotify
+  酷我音乐
+- 解决办法: ***网易云音乐用户请按照下文安装插件***
+### 网易云歌词显示插件安装
+点击[BetterNCM](https://std.microblock.cc/betterncm)下载
 :::tip 提示
 图片可以点击放大查看
 :::
@@ -20,8 +35,7 @@ order: 1
     点击<strong>安装</strong>
     <br>
     安装成功后自动弹出网易云音乐界面
-    <br>
-    打开<strong>灵动岛设置</strong>,<strong>插件管理</strong>,<strong>执行源修复</strong>,详见下图
+    
 
   </div>
 
@@ -32,7 +46,7 @@ order: 1
   
 
 </div>
-<img src="/ncm-music/3.png" style="width:114514px; box-shadow:0 4px 12px rgba(0,0,0,0.1);" />
+
 
 <br>
 <br>
@@ -46,8 +60,13 @@ order: 1
   </div>
 
   <div style="display:flex; flex-direction:column; gap:10px;">
-    <img src="/ncm-music/4.png" style="width:360px;" />
+    <img src="/ncm-music/4.png" style="width:360px;padding-bottom:10px" />
+    <div style="width:360px;border-top:1px solid black;padding-bottom:10px"></div>
     <img src="/ncm-music/5.png" style="width:360px;" />
   </div>
 
 </div>
+
+## 歌词显示有延迟
+正常现象,0延迟不可能通过合法途径实现
+同时,tauri分支在前奏时,不会显示后面的歌词,也不会显示曲目元信息

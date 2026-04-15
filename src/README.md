@@ -4,13 +4,13 @@ icon: home
 title: Pyisland 灵动岛
 heroImage: /island_c.svg
 heroText: Pyisland
-tagline: 运行在 Windows 上的现代灵动岛控制中心<br>Pyisland,不只有py<br>小白请先看下面第一段文字
+tagline: 运行在 Windows 上的现代灵动岛控制中心<br>Pyisland,不只有py<br>小白请先看使用指南
 actions:
   - text: 立即下载
     icon: download
     link: https://pyisland.com/#download
     type: primary
-  - text: 快速开始
+  - text: 使用指南
     icon: rocket
     link: /guide/
   - text: 功能介绍

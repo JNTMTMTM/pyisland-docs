@@ -6,22 +6,17 @@ order: 1
 
 # 快速开始
 :::info
-你知道吗,蓝色是可以点击跳转的Ciallo～(∠・ω< )⌒★
-       右边可以快速定位到想要的区域
+你知道吗,[蓝色字体]()是可以点击跳转的
+**左边**是**目录**
+**右边**可以快速定位到**当前页面的内容**
+Ciallo～(∠・ω< )⌒★
 :::
-## github相关
-::: tip 帮助
-| 名称 | 备注 | 
-|------|--------|
-|[github教程](/guide/github/connect.html) | 从-1到0 |
-|[github仓库](https://github.com/Python-island/pyisland-docs) | 不知道github的点上面那个教程,没看过教程不要再去问了 |
-|[bug反馈](/guide/github/issues.html) | 同样建议先看github教程 |
-|[功能建议](/guide/github/issues.html) | 同样建议先看github教程 |
-:::
+
 
 ## 分支教程
 目前部分功能依赖win32api是实现,暂时无法支持Linux,而Mac已经有成熟项目:Nookx
-::: info 分支教程选择(点击分支跳转教程)
+::: info 分支教程选择
+**点击分支跳转教程**
 | 分支 | 技术栈 | 适用场景 |
 |------|--------|----------|
 | [`pyislandPyside6`](/guide/pyislandPyside6.html) | Python + PySide6 | 稳定版，功能完整 |
