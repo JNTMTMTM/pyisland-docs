@@ -30,7 +30,7 @@ cd Python-island
 | 分支 | 技术栈 | 适用场景 |
 |------|--------|----------|
 | `pyislandPyside6` | Python + PySide6 | 稳定版，功能完整 |
-| `tauri-island` | Rust + Tauri 2 | 性能优先，新技术体验 |
+| `cisland` | Rust + Tauri 2 | 性能优先，新技术体验 |
 | `pyisland-wanku` | Python + PySide6 | 高仿真 iOS 风格 |
 | `harmony` | Python + PySide6 | 精简版，占用小 |
 :::

@@ -1,10 +1,10 @@
 ---
-title: tauri-island
+title: cisland
 icon: star
 order: 2
 ---
 
-# tauri-island
+# cisland
 
 这是 Pyisland 项目的 **全新重构版本**，基于 Tauri 2 和 Rust 构建，提供更强大的性能和更好的用户体验。
 
@@ -49,7 +49,7 @@ order: 2
 ## 项目结构
 
 ```
-tauri-island/
+cisland/
 ├── src/                    # 前端代码
 │   ├── main.ts             # 主界面逻辑
 │   ├── styles.css          # 样式文件
@@ -70,10 +70,10 @@ tauri-island/
 # 克隆并切换分支
 git clone https://github.com/Python-island/Python-island.git
 cd Python-island
-git checkout tauri-island
+git checkout cisland
 
 # 安装依赖
-cd tauri-island
+cd cisland
 npm install
 
 # 开发模式
@@ -100,7 +100,7 @@ npx tauri build
 
 ## 特点对比
 
-| 特性 | pyislandPyside6 | tauri-island |
+| 特性 | pyislandPyside6 | cisland |
 |------|-----------------|--------------|
 | 性能 | 较快 | 极快 |
 | 安装包大小 | 较大 | 极小 |
@@ -109,5 +109,17 @@ npx tauri build
 
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/Python-island/Python-island/tree/tauri-island)
+- [GitHub 仓库](https://github.com/Python-island/Python-island/tree/cisland)
 - [Tauri 官网](https://tauri.app/)
+
+
+## 许可证
+
+::: info
+本项目采用 **GNU General Public License v3.0 (GPLv3)** 或更高版本发布。
+
+根据 GPLv3 第 7 节(b) 款，添加了有限的附加条款，要求在所有副本、修改版本以及程序显示的 Appropriate Legal Notices 中保留以下作者署名信息：
+
+- Copyright (C) 2026-present [Coding_w](https://github.com/2064878930) [cXp1r](https://github.com/cXp1r)
+- Copyright (C) 2026-present pyisland.com (https://pyisland.com)
+:::

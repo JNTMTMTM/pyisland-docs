@@ -12,7 +12,7 @@ Pyisland 是一个用 Python 开发、运行在 Windows 上的现代灵动岛控
 |------|--------|------|
 | pyislandPyside6 | Python + PySide6 | 功能完整，稳定可靠 |
 | pyislandQT | Python + PyQt5 | 事件驱动，轻量高效 |
-| tauri-island | Rust + Tauri 2 | 性能更强，体积更小 |
+| cisland | Rust + Tauri 2 | 性能更强，体积更小 |
 | pyisland-wanku | Python + PySide6 | 高仿真 iOS 风格 |
 | eIsland | Electron + React | 现代 Web 风格 |
 

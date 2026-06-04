@@ -137,7 +137,7 @@ npm run package
 
 ## 特点对比
 
-| 特性 | pyisland-wanku | tauri-island | eIsland |
+| 特性 | pyisland-wanku | cisland | eIsland |
 |------|----------------|--------------|---------|
 | 性能 | 较快 | 极快 | 快 |
 | 技术栈 | Python + PySide6 | Rust + Tauri 2 | Electron + React |

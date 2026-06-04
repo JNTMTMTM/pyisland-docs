@@ -82,7 +82,7 @@ highlights:
         icon: star
         details: 基于 PyQt5 的轻量实现，事件驱动架构，资源占用极低
 
-      - title: tauri-island
+      - title: cisland
         icon: star
         details: 基于 Tauri 2 + Rust 的全新实现，性能更强
 

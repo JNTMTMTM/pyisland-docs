@@ -8,7 +8,7 @@ export default sidebar({
       children: [
         "/guide/",
         "/guide/pyislandPyside6",
-        "/guide/tauri-island",
+        "/guide/cisland",
         "/guide/eisland",
         "/guide/features",
       ],
@@ -49,7 +49,7 @@ export default sidebar({
         "/branches/",
         "/branches/pyislandPyside6",
         "/branches/pyislandQT",
-        "/branches/tauri-island",
+        "/branches/cisland",
         "/branches/pyisland-wanku",
         "/branches/eisland"
       ],
