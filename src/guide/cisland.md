@@ -30,7 +30,7 @@ order: 1
 
 :::
 ## 歌词捕获
-源码实现见[lyricify-lyrics-provider-rs](https://github.com/cXp1r/lyricify-lyrics-provider-rs)
+源码实现见[Lyrix](https://github.com/cXp1r/Lyrix)
 流程:进程匹配对应api,通过smtc信息搜索并获取歌词
 **原生支持** *汽水音乐,QQ音乐* **插件支持** *网易云音乐* **暂不支持** *酷狗音乐(无时间轴)*
 :::tip
