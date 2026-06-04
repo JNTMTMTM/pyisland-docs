@@ -1,10 +1,10 @@
 ---
-title: tauri-island
+title: cisland
 icon: sitemap
 order: 1
 ---
-# tauri-island
-本文档为 **tauri-island(高性能)** 分支教程,功能介绍见[tauri-island](/branches/tauri-island.html)
+# cisland
+本文档为 **cisland(高性能)** 分支教程,功能介绍见[cisland](/branches/cisland.html)
 
 ## 展开触发
 页面结构
@@ -30,7 +30,7 @@ order: 1
 
 :::
 ## 歌词捕获
-源码实现见[lyricify-lyrics-provider-rs](https://github.com/cXp1r/lyricify-lyrics-provider-rs)
+源码实现见[Lyrix](https://github.com/cXp1r/Lyrix)
 流程:进程匹配对应api,通过smtc信息搜索并获取歌词
 **原生支持** *汽水音乐,QQ音乐* **插件支持** *网易云音乐* **暂不支持** *酷狗音乐(无时间轴)*
 :::tip
@@ -68,8 +68,8 @@ AI 部分兼容 OpenAI API 接入设计
 - 点击允许
 ### 无线投屏
 - 打开 '无线调试'
-![手机](/tauri-island/0.png)
-![电脑](/tauri-island/1.png)
+![手机](/cisland/0.png)
+![电脑](/cisland/1.png)
 :::tip
 **无线调试每次换wifi需要重新打开,不如直接usb调试**
 :::

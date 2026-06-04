@@ -10,7 +10,7 @@ order: 1
 :::
 
 ## 歌词识别无效
-- 支持该功能的分支: **eisland**,**tauri-island**
+- 支持该功能的分支: **eisland**,**cisland**
 - 高精度匹配: 
   qq音乐
   汽水音乐
@@ -22,7 +22,7 @@ order: 1
   酷我音乐
 - 解决办法: ***网易云音乐用户请按照下文安装插件***
 ### 网易云歌词显示插件安装
-点击[BetterNCM](https://std.microblock.cc/betterncm)下载
+点击[BetterNCM下载1](https://github.com/std-microblock/BetterNCM-Installer/releases/download/1.2.0/betterncm_installer.exe) [BetterNCM下载2](https://gh-proxy.org/https://github.com/std-microblock/BetterNCM-Installer/releases/download/1.2.0/betterncm_installer.exe)下载
 :::tip 提示
 图片可以点击放大查看
 :::

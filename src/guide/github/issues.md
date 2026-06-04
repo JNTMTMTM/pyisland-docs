@@ -16,9 +16,9 @@ author: cXp1r
 
 # 如何提issues
 :::warning
-**重要的事情说三遍:明确自己使用的分支,如eisland(electron),tauri-island(tauri)**
-**重要的事情说三遍:明确自己使用的分支,如eisland(electron),tauri-island(tauri)**
-**重要的事情说三遍:明确自己使用的分支,如eisland(electron),tauri-island(tauri)**
+**重要的事情说三遍:明确自己使用的分支,如eisland(electron),cisland(tauri)**
+**重要的事情说三遍:明确自己使用的分支,如eisland(electron),cisland(tauri)**
+**重要的事情说三遍:明确自己使用的分支,如eisland(electron),cisland(tauri)**
 :::
 [点击此处跳转,建议先看完下面的部分](https://github.com/Python-island/Python-island/issues)
 

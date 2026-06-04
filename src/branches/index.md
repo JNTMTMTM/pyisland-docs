@@ -16,7 +16,7 @@ Pyisland 项目有多个分支版本，采用不同的技术栈实现，以满�
 |------|--------|------|----------|
 | [pyislandPyside6](./pyislandPyside6.md) | Python + PySide6 | 功能完整，稳定可靠 | 日常使用 |
 | [pyislandQT](./pyislandQT.md) | Python + PyQt5 | 事件驱动，轻量高效 | 轻量使用 |
-| [tauri-island](./tauri-island.md) | Rust + Tauri 2 | 性能更强，新技术 | 追求性能 |
+| [cisland](./cisland.md) | Rust + Tauri 2 | 性能更强，新技术 | 追求性能 |
 | [pyisland-wanku](./pyisland-wanku.md) | Python + PySide6 | 高仿真 iOS，功能丰富 | 追求美观 |
 | [eIsland](./eisland.md) | Electron + React | 现代 Web 风格 | 现代化 UI |
 
@@ -39,7 +39,7 @@ Pyisland 项目有多个分支版本，采用不同的技术栈实现，以满�
 - 你熟悉 Python/PyQt5
 :::
 
-### 选择 tauri-island 如果...
+### 选择 cisland 如果...
 
 ::: tip 性能优先
 - 你追求更好的性能和响应速度
@@ -82,7 +82,7 @@ Pyisland 项目有多个分支版本，采用不同的技术栈实现，以满�
          │                   │
          ▼                   ▼
 ┌──────────────────┐  ┌──────────────────┐
-│  pyisland-wanku  │  │   tauri-island   │
+│  pyisland-wanku  │  │   cisland   │
 │ (高仿真 iOS 版)   │  │  (Rust 重写版)   │
 └────────┬─────────┘  └────────┬─────────┘
          │                   │

@@ -36,7 +36,7 @@ cd Python-island
 | 分支 | 技术栈 | 适用场景 |
 |------|--------|----------|
 | [`pyislandPyside6`](#python-版本-pyside6-分支) | Python + PySide6 | 稳定版，功能完整 |
-| [`tauri-island`](#rust-版本-tauri-分支) | Rust + Tauri 2 | 性能优先，新技术体验 |
+| [`cisland`](#rust-版本-tauri-分支) | Rust + Tauri 2 | 性能优先，新技术体验 |
 | [`pyisland-wanku`](#技术选型) | Python + PySide6 | 高仿真 iOS 风格 |
 | [`harmony`](#技术选型) | Python + PySide6 | 精简版，占用小 |
 :::
@@ -156,7 +156,7 @@ Python-island/
 ### Tauri 分支结构
 
 ```
-tauri-island/
+cisland/
 ├── src/                      # 前端代码
 │   ├── main.ts               # 主界面逻辑
 │   ├── styles.css            # 样式
